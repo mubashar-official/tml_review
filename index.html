@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>My First Heading</h1>
-    <p>My first paragraph.</p>
+    <p id="bookmark">come form book mark.</p>
 
     <!-- HTML Paragraphs -->
     <p>This is a paragraph.</p>
@@ -22,9 +22,231 @@
 
     <!-- HTML Text Formatting -->
 
-    
+        <!-- <b> - Bold text
+        <strong> - Important text
+        <i> - Italic text
+        <em> - Emphasized text
+        <mark> - Marked text
+        <small> - Smaller text
+        <del> - Deleted text
+        <ins> - Inserted text
+        <sub> - Subscript text
+        <sup> - Superscript text -->
 
 
-    
+         <p> Lorem Ipsum is <strong> this is ---Strong---  simply dummy text of </strong><br/> the printing and typesetting
+          industry.<b> Lorem--This is Bold B --Ipsum has</b> <br/> been the industry's standard dummy text
+          ever since the<i> 1500s, Italic ITALIC when an </i><br/>
+          unknown printer took a galley of type
+          and scrambled <em> it to make ------ embasized ----- a type </em> <br/>
+          <small> specimen book.-------Small-------- It has survived not only </small> <br/>
+          five <del>centuries,</del> <br/> but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s
+          with the release of <ins> Letraset sheets</ins><br/> containing Lorem Ipsum passages,
+          and more recently  <sub>with desktop --------sub-------- publishing</sub>  </br> software like Aldus PageMaker
+          including versions of Lorem Ipsum 
+          but also the leap into electronic typesetting,
+          remaining essentially <sup>unchanged.------- SUp-------- It was p </sup>opularised in the 1960s
+            <strong>This text is important!</strong>
+            <i>This text is italic</i>
+
+          </p>
+
+
+            <h1 style="background-color:Tomato;">Tomato</h1>
+            <h1 style="background-color:Orange;">Orange</h1>
+            <h1 style="background-color:DodgerBlue;">DodgerBlue</h1>
+            <h1 style="background-color:MediumSeaGreen;">MediumSeaGreen</h1>
+            <h1 style="background-color:Gray;">Gray</h1>
+            <h1 style="background-color:SlateBlue;">SlateBlue</h1>
+            <h1 style="background-color:Violet;">Violet</h1>
+            <h1 style="background-color:LightGray;">LightGray</h1>
+
+            <h1 style="background-color:DodgerBlue;">Hello World</h1>
+
+<p style="background-color:Tomato;">
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+</p>
+
+<!-- Using CSS -->
+<!-- CSS can be added to HTML documents in 3 ways:
+
+Inline - by using the style attribute inside HTML elements
+Internal - by using a <style> element in the <head> section
+External - by using a <link> element to link to an external CSS file -->
+
+<link rel="stylesheet" href="#" />
+<link rel="stylesheet" href="#"/>
+
+<!-- Using CSS -->
+
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+</map>
+
+<!-- The HTML <picture> Element -->
+
+<picture>
+    <source media="(min-width: 650px)" srcset="img_food.jpg">
+    <source media="(min-width: 465px)" srcset="img_car.jpg">
+    <img src="img_girl.jpg">
+
+</picture>
+
+<!-- ---------------------------------Quotations------------------------------------------ -->
+
+<!-- In this chapter we will go through the <blockquote>,<q>, <abbr>, <address>, <cite>, and <bdo> HTML elements. -->.
+<blockquote cite="www.google.com">this block quote which use do present data come form other side of this this side </blockquote> <br/>
+<p><q>this q tag us used to put double qutations </q></p> <br/>
+
+<p ><abbr title="this is title of abbrevations">this is 'abbr' abbraviations tag which is used to </abbr></p> <br/>
+<abbr title="title">this 'abbr'abbrivation tage </abbr> <br/>
+<address>
+  <p>this is 'address tag which is used to write address of any person' </p>
+  Mr Ali and ali <br/>
+  visit us at : <br/>
+  example.com <br/>
+  Box 45 disneyland <br/>
+</address>
+<p>----------------------------------------------------</p>
+
+<address>
+  Written by John Doe.<br>
+  Visit us at:<br>
+  Example.com<br>
+  Box 564, Disneyland<br>
+  USA
+  </address>
+<p>-------------------------- link tag -------------------------------</p>
+
+<style>
+  a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  </style>
+  </head>
+  
+  <h2>Link Colors</h2>
+  
+  <p>You can change the default colors of links</p>
+  
+  <a href="https://www.google.com/" target="_blank">HTML Images</a> 
+
+<p>---------------------------HTML Links - Create Bookmarks jump form one section of page to other -------------------------</p>
+<a href="#bookmark">Go To Up</a>
+
+<p>---------------------------HTML Links - Create Bookmarks jump form one section of page to other -------------------------</p> <br/>
+
+
+<p><a href="#C4">Jump to Chapter 4</a></p>
+<p><a href="#C10">Jump to Chapter 10</a></p>
+
+<h2>Chapter 1</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 2</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 3</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2 id="C4">Chapter 4</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 5</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 6</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 7</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 8</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 9</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2 id="C10">Chapter 10</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 11</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 12</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 13</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 14</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 15</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 16</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 17</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 18</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 19</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 20</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 21</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 22</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 23</h2>
+<p>This chapter explains ba bla bla</p> <br/>
+
+<p>---------------------------------HTML Image Maps------------------------------------------</p>
+<img src="https://www.w3schools.com/html/workplace.jpg" alt="workplace" usemap="#img_map"></img>
+<map name="img_map">
+  <area shape="rect" coords="34,44,270,350" alt="cop of tea"  href="https://www.w3schools.com/html/workplace.jpg"> </area>
+  <area shape="rect" coords="290,172,333,250" alt="uk nationality" href="https://www.w3schools.com/html/workplace.jpg" ></area>
+  <area shape="circle" coords="337,300,44" alt="urdu paoint" href="https://www.google.com/" ></area>
+</map> <br/>
+
+<p>---------------------------------Quotations------------------------------------------</p> 
+
+<img src="https://www.w3schools.com/html/workplace.jpg" alt="Workplace" usemap="#workmap">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+</map>
 </body>
 </html>
