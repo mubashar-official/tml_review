@@ -248,5 +248,245 @@ External - by using a <link> element to link to an external CSS file -->
   <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
   <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
 </map>
+<p>---------------------------------Image background tag ------------------------------------------</p>
+<style>
+  .image-background{
+    background-image: url('https://www.w3schools.com/html/workplace.jpg');
+    background-size:cover;
+    background-repeat:unset;
+    background-attachment: local;
+    /* background-size: 100% 100%; */
+     height: 400px;
+     width: 100;
+  }
+</style>
+<div class="image-background"></div>
+
+<p>------------------------- PICTURES IMAGES ------------------------</p>
+<picture>
+  <source media="min-width: 700px" srcset="https://www.w3schools.com/html/workplace.jpg"> </picture>
+  <source media="min-width:400px" srcset="https://www.w3schools.com/html/workplace.jpg"></source>
+  </picture>
+  <p>---------------------------------Quotations------------------------------------------</p>
+  <style>
+  table{font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        }
+        td, th {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+  tr:nth-child(even){
+                background-color: #dddddd;
+              }
+
+  </style>
+
+  <table>
+    <tr>
+      <th>Company</th>
+      <th>Contact</th>
+      <th>Country</th>
+    </tr>
+    <tr>
+      <td>Alfreds Futterkiste</td>
+      <td>Maria Anders</td>
+      <td>Germany</td>
+    </tr>
+    <tr>
+      <td>Centro comercial Moctezuma</td>
+      <td>Francisco Chang</td>
+      <td>Mexico</td>
+    </tr>
+    <tr>
+      <td>Ernst Handel</td>
+      <td>Roland Mendel</td>
+      <td>Austria</td>
+    </tr>
+    <tr>
+      <td>Island Trading</td>
+      <td>Helen Bennett</td>
+      <td>UK</td>
+    </tr>
+    <tr>
+      <td>Laughing Bacchus Winecellars</td>
+      <td>Yoshi Tannamuri</td>
+      <td>Canada</td>
+    </tr>
+    <tr>
+      <td>Magazzini Alimentari Riuniti</td>
+      <td>Giovanni Rovelli</td>
+      <td>Italy</td>
+    </tr>
+  </table>
+<p>---------------------------------Collspan------------------------------------------</p>
+
+
+<style>
+  table {
+    width:100%;
+  }
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 15px;
+    text-align: left;
+  }
+  #t01 tr:nth-child(even) {
+    background-color: #eee;
+  }
+  #t01 tr:nth-child(odd) {
+   background-color: #fff;
+  }
+  #t01 th {
+    background-color: black;
+    color: white;
+  }
+  </style>
+  </head>
+  <body>
+  
+  <h2>Styling Tables</h2>
+  
+  <table>
+    <caption>Table Captions </caption>
+    <tr>
+      <th colspan="2">Firstname</th> 
+      <th>Age</th>
+    </tr>
+    <tr  >
+      <td rowspan="2" >Jill</td>
+      <td>Smith</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Jackson</td>
+      <td>94</td>
+    </tr>
+    <tr>
+      <td>John</td>
+      <td>Doe</td>
+      <td>80</td>
+    </tr>
+  </table>
+  <br>
+  
+  <table id="t01">
+    <tr>
+      <th>Firstname</th> 
+      <th>Age</th>
+    </tr>
+    <tr>
+      <td>Jill</td>
+      <td>Smith</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Eve</td>
+      <td>Jackson</td>
+      <td>94</td>
+    </tr>
+    <tr>
+      <td>John</td>
+      <td>Doe</td>
+      <td>80</td>
+    </tr>
+  </table>
+  <p>---------------------------------tabl structure modren------------------------------------------</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Month</th>
+        <th>Savings</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>January</td>
+        <td>$100</td>
+      </tr>
+      <tr>
+        <td>February</td>
+        <td>$80</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td>Sum</td>
+        <td>$180</td>
+      </tr>
+    </tfoot>
+  </table>
+  <p>-------------------------------------------A Description List --------------------------------</p>
+
+  
+<h2>A Description List</h2>
+<dd>
+  <dt>
+    Pakistan
+  </dt>
+  <dd>
+    Pakistan is Beautiful Countery </dd>
+  </dd>
+</dd>
+
+<dd>
+  <dt>
+    Chaina
+  </dt>
+  <dd>
+    Hard Work People Country  </dd>
+  </dd>
+</dd>
+
+<p>---------------------------------Direction List------------------------------------------</p>
+
+<!-- disc	Sets the list item marker to a bullet (default)
+circle	Sets the list item marker to a circle
+square	Sets the list item marker to a square
+none	The list items will not be marked -->
+<br/>
+<ul style="list-style:square">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+<p>---------------------------------Order List type ------------------------------------------</p>
+<ol type="I">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<p>---------------------------------Order List type 50 ------------------------------------------</p>
+
+<ol start="50">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+<p>---------------------------------Order List type Nested ------------------------------------------</p>
+
+<h2>A Nested List</h2>
+<p>Lists can be nested (list inside list):</p>
+
+<ol>
+  <li>Coffee</li>
+  <li>Tea
+    <ol>
+      <li>Black tea</li>
+      <li>Green tea</li>
+    </ol>
+  </li>
+  <li>Milk</li>
+</ol>
+
+<h4>---------------------------------HTML Block and Inline Elements------------------------------------------</h4>
+
+
 </body>
 </html>
